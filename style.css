@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100vw;
+    height: 100%;
+    font-family: sans-serif;
+}
+.page{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    width: 100%;
+    height: calc(100% - 12vh) ;
+     background: url(/src/coffee.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    background-color: rgba(24, 1, 1, 0.648);
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    border-bottom: .7px solid rgba(255, 255, 255, 0.815);
+
+}
+.menu{
+    width: 30vw;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.menu p{
+    padding: 10px;
+    cursor: pointer;
+    margin: 2px;
+    border-radius: 10px;
+}
+.cart{
+    width: 7vw;
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    color: white;
+}
+.cart i{
+    cursor: pointer;
+}
+.upper{
+    background-color: rgba(0, 0, 0, 0.564);
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+}
+.left{
+    width: 55%;
+    height: 80%;
+    margin-bottom: 20%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+.left h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin: 10px;
+}
+.left h1,p{ 
+    width: 70%;
+}
+.left p{
+    margin: 22px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.left button{
+    margin: 10px;
+ padding: 10px 24px;
+ cursor: pointer;
+ color: white;
+ background-color: rgb(113, 60, 41);
+ border: 0px solid;
+ align-self: first baseline;
+ margin-left: 124px;
+ border-radius: 4px;
+ font-size: 18px;
+ font-weight: 600;
+}
+.right {
+    height: 80%;
+    margin: 50px 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.right img{
+    height: 60%;
+}
+.sea{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    right: 20px;
+    border-radius: 20px;
+    top: calc(13vh);
+    display: none;
+    align-items: center;
+    background-color: red;
+    justify-content: center;
+    /* display: none; */
+}
+.sea i {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+.sea i:active{
+    background-color: rgb(95, 90, 90);
+}
+#search{
+    border: 1px solid black;
+    margin-left: 15px;
+    border-radius: 20px;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 15px;
+    padding-left: 8px;
+
+}
