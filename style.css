@@ -60,7 +60,7 @@ nav{
 .upper{
     background-color: rgba(0, 0, 0, 0.564);
     width: 100%;
-    height: calc(100%  12vh);
+    height: calc(100% );
     color: white;
     display: flex;
 }
@@ -152,10 +152,18 @@ nav{
     height: 30rem;
 }
 .page2{
-    background-color: red;
+    background-color: rgb(54, 26, 26);
     height: 100vh;
     width: 100vw;
 }
+.page2 h2 span{
+    color: rgb(214, 161, 92);
+}
+.page2 h2{
+    color: white;
+}
+
+
 @media (max-width:999px) {
     .menu{
         display: none;
@@ -167,8 +175,12 @@ nav{
             flex-direction: column;
             width: 100%;
         }
+        .page{
+            height: 140vh;
+        }
     main{
         flex-direction: column;
+        
     }
     .left{
         height: 60%;
