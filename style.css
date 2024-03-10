@@ -18,7 +18,7 @@ html,body{
 main{
     width: 100%;
     height: calc(100% - 12vh) ;
-     background: url(/src/coffee.webp);
+     background: url(https://image.freepik.com/free-photo/minimalist-black-background-arrangement-coffee-beans_23-2148441212.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -122,7 +122,6 @@ nav{
     align-items: center;
     background-color: red;
     justify-content: center;
-    /* display: none; */
 }
 .sea i {
     color: black;
