@@ -16,7 +16,7 @@ html,body{
     flex-direction: column;
 }
 main{
-    width: 100%;
+    width: 100vw;
     height: calc(100% - 12vh) ;
      background: url(https://image.freepik.com/free-photo/minimalist-black-background-arrangement-coffee-beans_23-2148441212.jpg);
     background-repeat: no-repeat;
@@ -54,12 +54,13 @@ nav{
     color: white;
 }
 .cart i{
+    margin-left: 10px;
     cursor: pointer;
 }
 .upper{
     background-color: rgba(0, 0, 0, 0.564);
     width: 100%;
-    height: 100%;
+    height: calc(100%  12vh);
     color: white;
     display: flex;
 }
@@ -75,16 +76,17 @@ nav{
 
 }
 .left h1{
-    font-size: 60px;
+    margin-top: 5vmax;
+    font-size: 65px;
     font-weight: 700;
-    margin: 10px;
+    margin-bottom: 10px;
 }
 .left h1,p{ 
     width: 70%;
 }
 .left p{
     margin: 22px;
-    font-weight: 100;
+    font-weight:lighter;
     font-size: 20px;
 }
 .left button{
@@ -107,8 +109,8 @@ nav{
     align-items:center;
     justify-content: center;
 }
-.right img{
-    height: 60%;
+.right #img{
+    height: 30vmax;
 }
 .sea{
     position: absolute;
@@ -145,4 +147,56 @@ nav{
     font-size: 15px;
     padding-left: 8px;
 
+}
+.right img{
+    height: 30rem;
+}
+.page2{
+    background-color: red;
+    height: 100vh;
+    width: 100vw;
+}
+@media (max-width:999px) {
+    .menu{
+        display: none;
+    }
+    
+}
+@media (max-width:600px) {
+        .upper{
+            flex-direction: column;
+            width: 100%;
+        }
+    main{
+        flex-direction: column;
+    }
+    .left{
+        height: 60%;
+        width: 100%;
+    }
+    .right{
+        height: 40%;
+        width: 100%;
+    }
+    .menu{
+        justify-content: space-around;
+        width: 300px;
+        display: none;
+    }
+    .left{
+        margin-bottom: 0px;
+        justify-content: baseline;
+        padding-bottom:20px ;
+    }
+    .left h1,p{
+        margin-left: 0px;
+    }
+    .right{
+        padding: 20px;
+        outline: 5px solid white;
+        border: 5px solid rgb(0, 0, 0);
+        margin: 0px;
+        width: 100%;
+        background-color: rgb(12, 6, 6);
+    }
 }
