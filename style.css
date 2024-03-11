@@ -245,6 +245,7 @@ button{
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+    text-align: center;
 }
 .layer .box:hover{
     color: black;
@@ -254,6 +255,25 @@ button{
 .layer .box h5{
     font-weight: 700;
     font-size: 20px;
+}
+.layer .box p span{
+    font-size: smaller;
+    text-decoration: line-through;
+}
+.layer .box .mage{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(167, 133, 81);
+    
+}
+.layer .box button{
+    background-color: burlywood;
+    align-self: center;
 }
 
 @media (max-width:999px) {
