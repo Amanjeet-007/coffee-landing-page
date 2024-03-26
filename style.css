@@ -335,8 +335,15 @@ button{
     text-align: center;
     margin: 20px;
     border: 2px solid rgb(32, 32, 32);
+    transition: .5s;
 
     
+}
+.page4 .layer4 .box:hover{
+    background-color: burlywood;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    scale: 1.1;
 }
 .page4 .layer4 .box img{
     height: 200px;
