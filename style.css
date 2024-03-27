@@ -133,7 +133,6 @@ nav{
     position: absolute;
     width: 300px;
     height: 50px;
-    background-color: white;
     right: 20px;
     border-radius: 20px;
     top: calc(13vh);
@@ -146,7 +145,7 @@ nav{
     color: black;
     background-color: white;
     cursor: pointer;
-    padding: 10px 10px;
+    padding: 7px 7px;
     border-radius: 50%;
 }
 .sea i:active{
@@ -163,6 +162,16 @@ nav{
     justify-content:center;
     font-size: 15px;
     padding-left: 8px;
+
+}
+.cut{
+    padding: 7px 7px;
+    color: rgb(0, 0, 0);
+    transform: rotate(45deg);
+    font-size: 15px;
+    font-weight: 600;
+    margin: 2px;
+    cursor: pointer;
 
 }
 /* link maching potition */
@@ -366,6 +375,10 @@ button{
     font-size: 20px;
     border: 2px solid rgb(32, 32, 32);
     margin-bottom: 20px;
+    transition: .3s;
+}
+.page4 .layer4 .box .topOfbox .tip:hover{
+    scale: 1.1;
 }
 
 .page5{
@@ -412,7 +425,16 @@ button{
     border-radius: 50%;
     background-color: green;
     margin: 10px;
+    display: flex;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
+.review .pic img{
+    height: 50px;
+}
+
 .star i{
     margin-top: 10px;
     margin-left: 3px;
@@ -442,7 +464,7 @@ button{
 
 }
 .page6 .all .right6{
-    width: 50%;
+    min-width: 50%;
     height: 100%;
     background-color: rgba(39, 23, 63, 0.356);
     display: flex;
@@ -492,8 +514,8 @@ button{
 
 }
 .all7 .blog{
-    min-height: 350px;
-    min-width: 300px;
+    max-width: 350px;
+    max-height: 300px;
     display: flex;
     border: 2px solid rgba(78, 73, 73, 0.58);
     flex-direction: column;
@@ -502,10 +524,18 @@ button{
     margin-top: 20px;
 }
 .all7 .blog .pi{
-    height: 50%;
+    max-height: 50%;
     width: 100%;
-    background-color: purple;
+    display: flex;
+    justify-content: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
 }
+/* .all7 .blog .pi img{
+    height: 100%;
+    width: 100%;
+} */
 .all7 .blog h6{
     font-weight: 600;
     font-size: 17px;
@@ -601,14 +631,14 @@ footer{
         flex-direction: column;
     }
     .page6 .all .left6{
-        width: 100%;
+        min-width: 350px;
         height: min-content;
     
     }
     .page6 .all .right6{
-        width: 100%;
+        min-width: 350px;
         height: min-content;
-        padding: 0px 50px;
+        /* padding: 0px 50px; */
         background-color: rgba(39, 23, 63, 0.356);
         display: flex;
         flex-direction: column;
