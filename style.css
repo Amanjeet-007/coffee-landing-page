@@ -627,6 +627,13 @@ footer{
         width: 100%;
         background: url(https://images.pexels.com/photos/568454/pexels-photo-568454.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200);
     }
+    .page4 .layer4 .box:hover{
+        background-color: rgb(0, 0, 0);
+        cursor: pointer;
+        color: white;
+        
+        scale: 1;
+    }
     .page6 .all{
         flex-direction: column;
     }
