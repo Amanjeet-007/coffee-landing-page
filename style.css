@@ -514,8 +514,8 @@ button{
 
 }
 .all7 .blog{
-    max-width: 350px;
-    max-height: 300px;
+    max-width: 340px;
+    max-height: 360px;
     display: flex;
     border: 2px solid rgba(78, 73, 73, 0.58);
     flex-direction: column;
@@ -539,11 +539,11 @@ button{
 .all7 .blog h6{
     font-weight: 600;
     font-size: 17px;
-    margin: 12px 0px;
+    margin: 15px 0px;
 }
 .all7 .blog .d{
     color: burlywood;
-    padding-bottom: 3px;
+    padding-bottom: 10px;
     font-size: 16px; text-align: center;
 }
 .all7 .blog p{
