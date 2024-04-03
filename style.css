@@ -38,6 +38,9 @@ nav{
     border-bottom: .7px solid rgba(255, 255, 255, 0.815);
 
 }
+.logo:hover{
+    cursor:grab;
+}
 .menu{
     width: 30vw;
     display: flex;
@@ -154,6 +157,7 @@ nav{
 #search{
     border: 1px solid black;
     margin-left: 15px;
+    margin-right: 20px;
     border-radius: 20px;
     height: 80%;
     width: 80%;
@@ -171,8 +175,47 @@ nav{
     font-size: 15px;
     font-weight: 600;
     margin: 2px;
+    float: inline-end;
+    position: absolute;
+    top: 2px;
+    right: 0px;
     cursor: pointer;
 
+}
+#shop{
+    position: relative;
+}
+#shop .count{
+    height: 20px;
+    width:  20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.596);
+    right: -8px;
+    top: -7px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    font-family: sans-serif;
+    /* visibility: hidden; */
+    
+}
+.cartbox{
+    height: min-content;
+    width: 300px;
+    position: absolute;
+    margin-top: 62px;
+    right: 10px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
+    display: flex;
+    /* align-items: center; */
+    justify-content:center;
+    padding: 10px 0px;
+    color: rgba(255, 255, 255, 0.484);
+    font-size: 20px;
+    text-align: center;
+    visibility: hidden;
 }
 /* link maching potition */
 .up{
@@ -225,7 +268,7 @@ nav{
 .mid2 .cont .cleft{
     min-width: 50%;
     height: 100%;
-    z-index: 9;
+    /* z-index: 9; */
     background-image:url(https://images.pexels.com/photos/568454/pexels-photo-568454.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200) ;
     background-position:left;
     background-size: cover;
@@ -626,8 +669,7 @@ footer{
     .mid2 .cont .cright{
         width: 100%;
         background: url(https://images.pexels.com/photos/568454/pexels-photo-568454.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200);
-    }
-    .page4 .layer4 .box:hover{
+    }    .page4 .layer4 .box:hover{
         background-color: rgb(0, 0, 0);
         cursor: pointer;
         color: white;
