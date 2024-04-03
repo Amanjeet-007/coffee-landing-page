@@ -8,11 +8,21 @@ let box =  document.querySelector(".cartbox");
 let heart = document.querySelectorAll(".heart");
 let count = document.querySelector(".count");
 let num = 0;
-function add(a){ 
+
+let m = document.querySelector(".m");
+function me(){
+    m.style.visibility="visible";
+    setTimeout(()=>{
+        m.style.visibility="hidden";
+    },800)
+}
+
+function add(){ 
+    count.style.visibility = "visible";
     num = ++num
     count.textContent = `${num}`;
     // icon.textContent = `${num} Item added in cart.`
-    mess
+    me()
 }
 
 

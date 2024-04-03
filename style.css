@@ -197,8 +197,24 @@ nav{
     text-align: center;
     font-weight: 600;
     font-family: sans-serif;
-    /* visibility: hidden; */
+    visibility: hidden;
     
+}
+.m{
+    height: 20px;
+    width: 70px;
+    background-color: rgba(27, 214, 27, 0.53);
+    position:fixed;
+    bottom: 30px;
+    left: 50%;
+    border-radius: 20px;
+    font-size: 15px;
+    text-align: center;
+    padding: 1px;
+    color: white;
+    font-weight: 700;
+    visibility: hidden;
+    z-index: 99;
 }
 .cartbox{
     height: min-content;
