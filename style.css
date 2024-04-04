@@ -201,20 +201,24 @@ nav{
     
 }
 .m{
-    height: 20px;
-    width: 70px;
+    padding: 4px 7px;
+    /* height: 20px;
+    width: 70px; */
     background-color: rgba(27, 214, 27, 0.53);
     position:fixed;
     bottom: 30px;
-    left: 50%;
+    left: 45%;
     border-radius: 20px;
     font-size: 15px;
     text-align: center;
-    padding: 1px;
     color: white;
     font-weight: 700;
     visibility: hidden;
     z-index: 99;
+}
+button a{
+    color: white;
+    text-decoration: none;
 }
 .cartbox{
     height: min-content;
@@ -232,6 +236,10 @@ nav{
     font-size: 20px;
     text-align: center;
     visibility: hidden;
+}
+.shop:active{
+color: chartreuse;
+
 }
 /* link maching potition */
 .up{
@@ -318,6 +326,9 @@ button{
  font-size: 18px;
  font-weight: 600;
 }
+button:active{
+    background-color: rgb(129, 104, 73);
+}
 .page3{
     height: min-content;
     width: 100%;
@@ -372,7 +383,6 @@ button{
     
 }
 .layer .box button{
-    background-color: rgb(145, 119, 85);
     align-self: center;
 }
 .page4{
