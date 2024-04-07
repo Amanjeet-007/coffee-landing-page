@@ -128,8 +128,8 @@ nav{
     justify-content: center;
 }
 .right #img{
-    height: 30vmax;
-    margin-top: 10%;
+    height: 28vmax;
+    margin-top: 10vh;
 }
 /* for search using  i am using here .sea  */
 .sea{
@@ -202,8 +202,6 @@ nav{
 }
 .m{
     padding: 4px 7px;
-    /* height: 20px;
-    width: 70px; */
     background-color: rgba(27, 214, 27, 0.53);
     position:fixed;
     bottom: 30px;
@@ -346,7 +344,7 @@ button:active{
     padding: 30px;
 }
 .layer .box{
-    min-width: 350px;
+    min-width: 300px;
     min-height: 250px;
     border: 2px solid rgb(35, 34, 34);
     margin: 10px;
